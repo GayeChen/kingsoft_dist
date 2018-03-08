@@ -2,64 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8779df91-799b-4d64-b52d-30d4491246f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/gayechen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/kingsoft_dist.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/0.setting.setting.profile.a070ec1fad409f5f4f71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/1.login.84120ad4bda4ce33fe95.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/10.monitor.groups.7d2833d362831fe3e416.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/11.cloud.permission.member.34ff63ed337036b0fa37.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/12.monitor.host.details.ef721f4fa5a615926835.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/13.hostRule.ca1f8c20be5ad2372963.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/14.monitor.event.list.6d8d22087e06d9b34443.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/15.monitor.host.list.100527c3d813b0b52e64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/16.cloud.permission.member.list.39948cab2e37fdb26603.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/0.safe.list.ac7debcae96ef2ae054b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/1.setting.setting.profile.1a29658a997c4a3c4501.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/10.monitor.groups.528187ac630f4a23a7c0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/11.cloud.permission.member.1716e38103059e8cd1b2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/12.monitor.host.details.9b2994759b512d0671f5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/13.hostRule.fb64ccb43007ce47f3f2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/14.cloud.permission.invite.3433ad209aa47d041a74.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/15.monitor.event.list.64ce154bef6ce83c4da6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/16.monitor.host.list.2575b1c8e68c96cced38.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/16d784563bd092439256c34b2deb8f4e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/17.cloud.permission.invite.5bb26cf2c8e393bf7d5b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/18.acc.list.051ac04601fdbd4c0722.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/19.cloud.permission.role.list.b2c1dd5fc9dcd6d9c1a9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/2.cloud.permission.info.75318736d65b403205f1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/20.deploy.status.dbd20252aa8d3e1e96fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/21.cloud.permission.authority.f21812d733f9b701bb8f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/22.cloud.permission.ops.list.79509ddee80c975c95b8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/23.info.letters.ecef2340c05b32cb4c90.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/24.acc.add.f06ef3d83442525e8b89.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/25.setting.setting.password.7cfba13b8965923a592d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/26.reg.9961c7db1bc5201c6ec1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/27.monitor.smallChart.af2791a883f053bd8e1e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/28.monitor.bigChart.e6daefbdf0d3aaf9e910.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/29.cloud.perssion.role.edit.81cac92f26e2f7afb7a8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/30.cloud.permision.role.add.fd4fc0ce48d4f1fe65d9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/31.deploy.gateway.f8138b70965b80757936.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/32.deploy.agent.f59240c3e9b77a6727c8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/33.cloud.permission.depoly.8b141af27459dcc4e8c1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/34.cloud.permission.exit.list.b2f319f2c5a5d0a2ae25.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/35.usercenter.3f9bc2f6bcc76753ec15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/17.cloud.permission.member.list.a4fafc5d3a7d340e12cc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/18.acc.list.f17caf3cbdf33816a202.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/19.cloud.permission.role.list.189f854304ad9b34bf82.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/2.login.c395c2d01fd3da86bbb1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/20.deploy.status.b71910c7d0b475376b81.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/21.cloud.permission.authority.eb0869018ddc8b954d55.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/22.cloud.permission.ops.list.bffc4b478fc57d14785b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/23.info.letters.b6c0aa89f1cdf0a83e82.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/24.acc.add.b692b8cceed0d3b27b57.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/25.setting.setting.password.6cfe594c48faf3c0a381.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/26.reg.e1ff0128a5c1fcc08915.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/27.monitor.smallChart.e9381d9054b735730e01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/28.monitor.bigChart.65a353e00c1fbb980c2c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/29.cloud.perssion.role.edit.a993d078fe7a3f4a9ef1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/3.cloud.permission.info.65fc9dcd591068c5d06e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/30.cloud.permision.role.add.2c8bbfaa2674c5bc1447.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/31.deploy.gateway.5d8e2ad6289c71b81681.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/32.deploy.agent.601da933cbfc63eb45e9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/33.cloud.permission.depoly.a00e7dae9ed43ed171ac.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/34.cloud.permission.exit.list.a569dbf9f2aadf2cf548.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/35.usercenter.3a7b78d3824a82bf9a12.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/355298bbe49d6dd9b333a95f247be5e0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/36.cloud.Setting.40c544f231d4202ec0c6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/37.safe.index.16f154905aebe338e593.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/38.monitor.host.index.29342c78b343f7e9cd22.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/39.cloud.node.host.index.1474761b42eeeb290966.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/4.cloud.node.host.list.2be042927a8e662c771a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/40.monitor.rule.index.8c37806ef4a47bbc9a61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/5.safe.list.b2dcf33ef8c7a257025f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/6.Center.c9b8bcc6aa25ac351b2f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/7.cloud.tree.669037b6ebf87d082e44.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/8.monitor.rule.newRule.a980b8ae4aa0294bac44.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/9.monitor.rule.editRule.b13804ebba26e02b1613.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/app.86b58e76ca77fb67064e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/app.a6c01dffba3d56468e8f127113f05e4f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/36.cloud.Setting.7ea3aca34c9dd4c62320.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/37.safe.index.fce824d5407ca29be34d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/38.monitor.host.index.d1641dee2b23021b314b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/39.cloud.node.host.index.f5547324f4c682e41ca5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/40.monitor.rule.index.0c3911aaba754608095b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/5.cloud.node.host.list.2e11701a2002d5a37731.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/6.Center.dbfc8fcfd5fed0424f44.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/7.cloud.tree.83f3e66b99dc20fc89e6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/8.monitor.rule.newRule.62efd9d4e91c37e38591.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/9.monitor.rule.editRule.b4eafeac99919b55353d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/app.5ffbf93b4cab4a59e9dc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/app.c4f50218ef03da3ef1e758ae41231e43.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/b416fc1454a5c5622469a2ab3936084c.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/f2146bfa545a5b420f81611538e0bc51.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/f9f8b0f60242ce9c0faaee2733eee224.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/src/routes/Center/routes/Monitor/components/MonitorChart/fonts/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/vendor.9f49d31d6465ff3d2cf6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/vendor.776681243971e31632b5.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,12 +68,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="44">
-                <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <first_editor relative-caret-position="88">
+                <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -89,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -107,8 +101,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -119,8 +113,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="281" />
+    <option name="x" value="527" />
+    <option name="y" value="63" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
@@ -181,6 +175,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -192,17 +248,17 @@
       <option name="presentableId" value="Default" />
       <updated>1518073953002</updated>
       <workItem from="1518073954865" duration="608000" />
-      <workItem from="1520478666872" duration="153000" />
+      <workItem from="1520478666872" duration="1132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="761000" />
+    <option name="totallyTimeSpent" value="1740000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="281" width="1440" height="822" extended-state="1" />
+    <frame x="527" y="63" width="1440" height="822" extended-state="1" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -244,24 +300,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <first_editor relative-caret-position="88">
+            <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
