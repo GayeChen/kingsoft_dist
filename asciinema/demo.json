@@ -1,0 +1,54 @@
+{
+  "duration": 2.167891,
+  "command": null,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm-256color"
+  },
+  "title": null,
+  "version": 1,
+  "stdout": [
+    [
+      0.020761,
+      "\u001b]0;root@org1-kdc01:~\u0007\u001b[?1034h[root@org1-kdc01 ~]# "
+    ],
+    [
+      0.650168,
+      "l"
+    ],
+    [
+      0.135111,
+      "s"
+    ],
+    [
+      0.106211,
+      "\r\na.sh                          \u001b[0m\u001b[38;5;9mlibsmbios-2.3.0.tar.gz\u001b[0m   relay.mysql       \u001b[38;5;34mttyplay\u001b[0m\r\n\u001b[38;5;9ma.tar.gz\u001b[0m                      \u001b[38;5;34mmysh\u001b[0m                     \u001b[38;5;34mrelay-service\u001b[0m     \u001b[38;5;9mttyplay-demo.rar\u001b[0m\r\ncfg.json                      \u001b[38;5;27motp\u001b[0m                      \u001b[38;5;34mroot@120.92.9.43\u001b[0m  \u001b[38;5;9mttyplay-demo.zip\u001b[0m\r\ndemo.json                     \u001b[38;5;9motp.tar.gz\u001b[0m               rpcsocket.py      ttyplay.js\r\ndemo.ttyrec.closed            \u001b[38;5;27mpam_mysql\u001b[0m                \u001b[38;5;9mryrelay.tar.gz\u001b[0m    \u001b[38;5;34mttyrec\u001b[0m\r\n\u001b[38;5;9mgo1.6.linux-amd64.tar.gz\u001b[0m      \u001b[48;5;10;38;5;21mpam_mysql-0.7RC1\u001b[0m         \u001b[38;5;27mtermrec\u001b[0m           \u001b[38;5;34mttyrec2gif\u001b[0m\r\n\u001b[38;5;27mgoogle-authenticator\u001b[0m          \u001b[38;5;9mpam_mysql-0.7RC1.tar.gz\u001b[0m  \u001b[38;5;9mtermrec-0.17.tar\u001b[0m  ttyrec.fang.20160903034746.1472874466.closed\r\nhost.keytab                   \u001b[38;5;9mpam_mysql.tar.gz\u001b[0m         \u001b[38;5;34mtest\u001b[0m              ttyre"
+    ],
+    [
+      3.2e-05,
+      "cord.closed\r\n\u001b[38;5;27mipbt-20160908.4a07ab0\u001b[0m         play.html                test.c            \u001b[38;5;9mttyrec.tar.gz\u001b[0m\r\n\u001b[38;5;9mipbt-20160908.4a07ab0.tar.gz\u001b[0m  \u001b[38;5;9mproxy.tar.gz\u001b[0m             testpp            \u001b[38;5;34mttytime\u001b[0m\r\n\u001b[38;5;9mjettyplay.jar\u001b[0m                 \u001b[38;5;9mPython-2.7.12.tgz\u001b[0m        \u001b[38;5;13mt.gif\u001b[0m             \u001b[38;5;9mtunnel.tar.gz\u001b[0m\r\n\u001b[38;5;27mks3-python-sdk\u001b[0m                rec.bin.closed           \u001b[38;5;27mtty2gif\u001b[0m\r\n\u001b[38;5;27mlibsmbios-2.3.0\u001b[0m               \u001b[38;5;27mrelay\u001b[0m                    \u001b[38;5;27mttygif\u001b[0m\r\n\u001b]0;root@org1-kdc01:~\u0007[root@org1-kdc01 ~]# "
+    ],
+    [
+      0.622634,
+      "e"
+    ],
+    [
+      0.231473,
+      "x"
+    ],
+    [
+      0.08079,
+      "i"
+    ],
+    [
+      0.143736,
+      "t"
+    ],
+    [
+      0.176863,
+      "\r\nexit\r\n"
+    ]
+  ],
+  "width": 135,
+  "height": 38
+}
