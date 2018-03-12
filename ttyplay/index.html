@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>日志查询</title>
+  <link rel="stylesheet" href="/i/lib/ttyplay/ttyplay.min.css" />
+  <link rel="stylesheet" href="/i/css/base.css" />
+  <script src="/i/lib/ttyplay/ttyplay.min.js"></script>
+  <script src="/i/lib/jquery.min.js"></script>
+  <script>
+    /*
+     start 开始时间
+     end 结束时间
+     user 用户名
+     op_user 执行命令时的用户名
+     cmd 操作命令
+     host 主机名
+     orgid 公司id
+     */
+    $(function(){
+      function _trim(str){
+        return str.toString().replace(/\s+/g,'');
+      }
+      function _time(str){
+        return /^2\d{3}-\d{2}-\d{2}\s\d{2}-\d{2}-\d{2}$/.test(str.toString());
+      }
+      $('#js-btn').on('click', function(){
+        var _data = {},
+            user = _trim($('#user').val()),
+            host = _trim($('#host').val()),
+            start = $('#start').val(),
+            end = $('#end').val(),
+            cmd = _trim($('#cmd').val());
+        if(user) _data.user = user;
+        if(host) _data.host = host;
+        if(_time(start)) _data.start = Math.round(new Date(start).getTime()/1000);
+        else if(_trim(start)) alert('正确开始时间格式 Y-m-d 或 Y-m-d H:i:s');
+        if(_time(end)) _data.end = Math.round(new Date(end).getTime()/1000);
+        else if(_trim(end)) alert('正确结束时间格式 Y-m-d 或 Y-m-d H:i:s');
+        if(cmd) _data.cmd = cmd;
+        $.get('http://120.92.9.43/v1/relaylog', _data).done(function(data){
+          if(data.err==0){
+            var _xml = '<tr><th>时间</th><th>用户</th><th>主机名</th><th>操作命令</th></tr>',
+                _result = data.result;
+            for(var i= 0,l=_result.length; i<l; i++)
+              _xml += '<tr><td>'+_result[i].timestamp+'</td><td>'+_result[i].user+'</td><td>'+_result[i].hostname+'</td><td>'+_result[i].command+'</td></tr>';
+            $('#js-list').html(_xml);
+          }
+        }).fail(function(){
+          alert('查询失败');
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="side">
+      <h2>管理菜单</h2>
+      <ul>
+        <li><a href="index.html" class="on">日志查询</a></li>
+        <li><a href="play.html">操作回放</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <div id="settings">
+        <ul class="control">
+          <li>
+            <label for="user">用户名:</label>
+            <input type="text" id="user" value="fang">
+          </li>
+          <li>
+            <label for="host">主机名:</label>
+            <input type="text" id="host" value="">
+          </li>
+        </ul>
+        <br class="clr">
+        <ul class="control">
+          <li>
+            <label for="start">开始时间:</label>
+            <input type="text" id="start" value="">
+          </li>
+          <li>
+            <label for="end">结束时间:</label>
+            <input type="text" id="end" value="">
+          </li>
+          <li>
+            <label for="cmd">操作命令:</label>
+            <input type="text" id="cmd" value="">
+          </li>
+        </ul>
+        <br class="clr">
+        <div class="btn">
+          <a href="javascript:;" class="btn" id="js-btn">查询</a>
+        </div>
+      </div>
+      <div class="table" style="padding-top: 20px">
+        <table id="js-list">
+          <tr><th>时间</th><th>用户</th><th>主机名</th><th>操作命令</th></tr>
+          <tr><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
